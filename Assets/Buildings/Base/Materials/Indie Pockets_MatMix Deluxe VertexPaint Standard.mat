@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Indie Pockets_MatMix Deluxe VertexPaint Standard
+  m_Shader: {fileID: 4800000, guid: f27f6b3f88a282b4e9929e3a3578b1dd, type: 3}
+  m_ShaderKeywords: _USEBLENDDETAILTEXTURE_ON _USEOCCLUSIONTEXTURE1_ON _USEOCCLUSIONTEXTURE2_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo2:
+        m_Texture: {fileID: 2800000, guid: 53266f1e816107d4b853e232d5ebe050, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendDetailTexture:
+        m_Texture: {fileID: 2800000, guid: cc4368f323454f942902d89f79f62072, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a9b0b7bdfb700bb479b422626a3e1836, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothnessOcclusion1:
+        m_Texture: {fileID: 2800000, guid: 70c2ccc7c3cfef043b1b41b37ee3a134, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothnessOcclusion2:
+        m_Texture: {fileID: 2800000, guid: a5e4b1e595c57a04f9732ff8873126f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 2800000, guid: 755bc3270bb6b444f9801f0904e20306, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 2800000, guid: 76117e8e27926354283aecae6e1b194b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendDetailTextureTile: 1.23
+    - _NormalIntensity1: 1
+    - _NormalIntensity2: 1
+    - _Tiling1: 1
+    - _Tiling2: 1
+    - _UseBlendDetailTexture: 1
+    - _UseOcclusionTexture1: 1
+    - _UseOcclusionTexture2: 1
+    - _VertexRHardness1: 3.01
+    - _VertexRHardness2: -1.84
+    - __dirty: 1
+    m_Colors:
+    - _BlendDetailTextureOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset1: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset2: {r: 0, g: 0, b: 0, a: 0}
