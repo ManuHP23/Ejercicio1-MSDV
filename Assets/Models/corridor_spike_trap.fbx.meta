@@ -1,11 +1,78 @@
 fileFormatVersion: 2
 guid: c4440f65f56df244c98a0d33f6ecdce8
 ModelImporter:
-  serializedVersion: 26
-  internalIDToNameTable:
-  - first:
-      74: -6120407892092859119
-    second: spike|spikeAction
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.001_end
+    100006: Bone.002
+    100008: Bone.002_end
+    100010: Bone.003
+    100012: Bone.003_end
+    100014: Bone.004
+    100016: Bone.004_end
+    100018: Bone.005
+    100020: Bone.005_end
+    100022: Bone.006
+    100024: Bone.006_end
+    100026: Bone.007
+    100028: Bone.007_end
+    100030: Bone_end
+    100032: Cone
+    100034: //RootNode
+    100036: Cube
+    100038: Cube.001
+    100040: Cube.002
+    100042: Cube.003
+    100044: Hemi
+    100046: Hemi.001
+    100048: spike
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.001_end
+    400006: Bone.002
+    400008: Bone.002_end
+    400010: Bone.003
+    400012: Bone.003_end
+    400014: Bone.004
+    400016: Bone.004_end
+    400018: Bone.005
+    400020: Bone.005_end
+    400022: Bone.006
+    400024: Bone.006_end
+    400026: Bone.007
+    400028: Bone.007_end
+    400030: Bone_end
+    400032: Cone
+    400034: //RootNode
+    400036: Cube
+    400038: Cube.001
+    400040: Cube.002
+    400042: Cube.003
+    400044: Hemi
+    400046: Hemi.001
+    400048: spike
+    2100000: Material
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    4300000: Cube.003
+    4300002: Cube.002
+    4300004: Cube.001
+    4300006: Cube
+    4300008: Cone
+    7400000: spike|spikeAction
+    9500000: //RootNode
+    10800000: Hemi
+    10800002: Hemi.001
+    13700000: Cone
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -37,7 +104,6 @@ ModelImporter:
     - serializedVersion: 16
       name: spike|spikeAction
       takeName: spike|spikeAction
-      internalID: 0
       firstFrame: 0
       lastFrame: 58
       wrapMode: 0
@@ -70,7 +136,6 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -78,19 +143,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -99,11 +163,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -113,7 +176,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
