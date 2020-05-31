@@ -44,8 +44,8 @@ public class HealthManager : MonoBehaviour
 
         respawnPoint = thePlayer.transform.position;
 
-        maxHealthBar = (maxHealth * 0.184f);
-        currentHealthBar = (currentHealth * 0.184f);
+        maxHealthBar = (maxHealth * 0.092f);
+        currentHealthBar = (currentHealth * 0.092f);
     }
 
     
@@ -91,7 +91,7 @@ public class HealthManager : MonoBehaviour
     {
         
         currentHealth -= damage;
-        currentHealthBar -= 0.184f;
+        currentHealthBar -= 0.092f;
 
         if (currentHealth <= 0)
         {
@@ -136,7 +136,7 @@ public class HealthManager : MonoBehaviour
     public void HealPlayer(int healAmount)
     {
         currentHealth += healAmount;
-        currentHealthBar += 0.184f;
+        currentHealthBar += 0.092f;
 
         if (currentHealth > maxHealth)
         {

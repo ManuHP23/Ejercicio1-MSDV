@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class TriggerTrap2 : MonoBehaviour
 {
-
     public GameObject spikedBall;
-    public GameObject spikedBall2;
-    public GameObject spikedBall3;
-
-
+    
     void Start()
     {
         
@@ -26,8 +22,6 @@ public class TriggerTrap2 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             spikedBall.GetComponent<Rigidbody>().isKinematic = false;
-            spikedBall2.GetComponent<Rigidbody>().isKinematic = false;
-            spikedBall3.GetComponent<Rigidbody>().isKinematic = false;
         }
     }
 }

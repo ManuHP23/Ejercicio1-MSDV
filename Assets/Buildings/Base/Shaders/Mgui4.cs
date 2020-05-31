@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEditor;
+using System.Linq;
 
 public class Mgui4 : ShaderGUI
 {

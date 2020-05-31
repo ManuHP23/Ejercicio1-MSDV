@@ -11,7 +11,7 @@ public class EndTrigger : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             gameManager.CompleteLevel();
-
+            
             ohYeahSound.Play();
 
 
